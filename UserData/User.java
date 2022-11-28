@@ -10,7 +10,7 @@ public class User {
 
   public boolean changeUserType(User employee) {
     if (employee.type == "employee") {
-      if (type = "customer") {
+      if (type == "customer") {
         type = "employee";
         return true;
       }
@@ -25,7 +25,7 @@ public class User {
   }
 
   public String getAddress(String userPassword) {
-    if (password = userPassword) {
+    if (password == userPassword) {
       return password;
     }
     else {
@@ -34,7 +34,7 @@ public class User {
   }
 
   public String getUsername(String userPassword) {
-    if (password = userPassword) {
+    if (password == userPassword) {
       return password;
     }
     else {

@@ -1,4 +1,4 @@
 public class Drink extends Item {
-  public bool noIce;
+  public boolean noIce;
   public String size;
 }
