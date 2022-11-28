@@ -26,7 +26,7 @@ public class User {
 
   public String getAddress(String userPassword) {
     if (password == userPassword) {
-      return password;
+      return address;
     }
     else {
       return null;
@@ -35,7 +35,7 @@ public class User {
 
   public String getUsername(String userPassword) {
     if (password == userPassword) {
-      return password;
+      return username;
     }
     else {
       return null;
